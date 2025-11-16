@@ -6,7 +6,11 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    background-color: #F9F4F0;
+    /* background: #F9F4F0; */
+}
+
+body{
+    background: #F9F4F0;
 }
 
 li, a, button{
@@ -105,4 +109,103 @@ header button{
     width: 170vh;
     height: 20vh;
     background-repeat: no-repeat;
+}
+
+.sectiontop .topsection4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.section4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.section4 .topsection4 h2, h1{
+    font-family: playfair display, sans-serif;
+}
+
+.sectiontop .topsection4 .button button{
+    padding: 9px 25px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card{
+    background-color: #fff;
+    padding:2%;
+    border-radius: 20px; 
+}
+
+.card div{
+    padding: 2% 0%;
+    /* z-index: 1; */
+}
+
+.card div h3, h2{
+    font-size: xx-large;
+    color: #00000060;
+}
+
+.section4 .card .button2 button{
+    padding: 9px 25px;
+    background:none;
+    color: #00000081;
+    border-color: #00000060;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.section4 .card .button button{
+    padding: 9px 25px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.section5 .topsection5{
+    margin: 3% 10%;
+}
+
+.topsection5 h1{
+    font-size: 40px;
+}
+
+.section5 .toolsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2% 5%;
+}
+
+.section5 div .tools{
+    background: #fff;
+    padding: 1%;
+    text-align: center;
+}
+
+.section6 .topsection6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+    margin-top: 2%;
+
+}
+
+.section6 .topsection6 .button button{
+    padding: 9px 25px;
+    background-color: black;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
