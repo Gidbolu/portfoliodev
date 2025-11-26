@@ -11,6 +11,7 @@
 
 body{
     background: #F9F4F0;
+    /* border: #000000; */
 }
 
 li, a, button{
@@ -52,11 +53,23 @@ header button{
     cursor: pointer;
 }
 
+/* .section2{
+    border: #333333 solid;
+} */
+
+.div, .sectiontop, .section5, .section6, .section8{
+    border: #33333328 solid;
+    border-left: none;
+    border-right: none;
+}
+
 .section2 .div{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    
+    /* border-style:inset; */
 }
 
 .section2 .div .section2-toptext{
@@ -73,11 +86,11 @@ header button{
 
 .section2 .div .section2-toptext div h2{
     font-size: 30px;
-    font-family: playfair display, sans-serif;
+    /* font-family: playfair display, sans-serif; */
 }
 .section2 .div .section2-toptext div h1{
     font-size: 70px;
-    font-family: playfair display, sans-serif;
+    /* font-family: playfair display, sans-serif; */
 }
 .section2 .div .section2-toptext div p{
     font-size: 30px;
@@ -111,6 +124,10 @@ header button{
     background-repeat: no-repeat;
 }
 
+.sectiontop{
+
+}
+
 .sectiontop .topsection4{
     display: flex;
     align-items: center;
@@ -126,7 +143,7 @@ header button{
 }
 
 .section4 .topsection4 h2, h1{
-    font-family: playfair display, sans-serif;
+    /* font-family: playfair display, sans-serif; */
 }
 
 .sectiontop .topsection4 .button button{
@@ -208,4 +225,175 @@ header button{
     border: none;
     border-radius: 20px;
     cursor: pointer;
+}
+
+.section6 .topsection6b{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.section6 .sectionclass{
+    background-image: url(/src/Group\ 6.png);
+    background-position: center;
+    background-size: cover;
+    width: 50vh;
+    height: 50vh;
+}
+
+.section6  .lesson{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 2.5;
+}
+
+.section6 .topsection6b .section6commet{
+    color: #00000060;
+    line-height: 2;
+    margin: 1% 0%;
+}
+
+.section6 .topsection6b .navpas ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionclient{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.clients{
+    background: #fff;
+    width: 40%;
+    padding: 2%;
+    /* line-height:2; */
+}
+
+.sectionclient .clients .clienthead{
+    margin-top: 3%;
+    font-family: lato, sans-serif;
+}
+
+.sectionclient .clienttes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0% 1%;
+}
+
+.sectionclient .clienttes img{
+    margin-right: 3%;
+}
+.sectionclient .clienttes p{
+    font-size: 22px;
+}
+
+.section8{
+
+    background-image: radial-gradient(rgba(17, 17, 17, 0.479),  #333333 60%);
+    height: 35vh;
+}
+
+.sectiongrad{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5% 0%;
+}
+
+.sectiongrad .text{
+    font-size: 30px;
+    color: #fff;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    line-height: 2;
+}
+
+.sectiongrad .text button{
+    padding: 3% 10%;
+     font-family: playfair display, sans-serif;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.section9{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding: 2% 10%;
+    /* border: #333333 solid; */
+}
+
+.section9 .section9a{
+    /* background-color: aqua; */
+   
+}
+
+.section9 .section9a .sechead{
+    /* padding: 5% 0%; */
+    /* line-height: 2; */
+}
+
+.section9 .section9a .secicon{
+    margin:5% 0%;
+}
+
+.section9 .section9a .secicon .icon{
+    margin-top: 2%;
+}
+
+.section9 .section9a .secicon .icon a{
+   /* background: #fff; */
+   border: #33333342 solid;
+   padding: 1% 3%;
+   border-radius: 20px;
+   color: #333333;
+}
+
+.section9 .section9b{
+    /* background-color: aquamarine; */
+    padding: 1%;
+    border: #3333333f solid;
+    border-radius: 20px;
+}
+
+.section9 .section9b .inputname{
+    width: 100%;
+}
+
+.section9 .section9b input{
+    border: none;
+    border-bottom: #3333334d solid;
+    
+    height: 35px;
+    background: none;
+}
+
+.section9 .section9b .input{
+    margin: 2% 0%;
+}
+
+.section9 .section9b textarea{
+    width: 100%;
+    height: 80px;
+    background: none;
+    border: none;
+    border-bottom: #3333334b solid;
+}
+
+.section9 .section9b button{
+    background: #333333;
+    color: #fff;
+    padding: 3% 5%;
+    border: none;
+    margin-top: 3%;
+    border-radius: 20px;
 }
